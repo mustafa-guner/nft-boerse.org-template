@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/dist/css/index.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <a id="go-top-button"></a>
+
+    <nav class="nav">
+        <div class="logo">
+            NFT BOERSE<span>.</span>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">ArtWorks</a>
+                </li>
+                <li>
+                    <a class="active" href="#">Buy NFT</a>
+                </li>
+                <li>
+                    <a href="#">Mint NFT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="buy" class="container">
+        <h1>Buy NFT</h1>
+        <p class="description">It is very easy to have your own NFT in just 3 steps!</p>
+        <div class="steps">
+            <div class="step-block">
+                <div class="step">
+                    <div class="step-description">
+                        Create your own NFT on Cardano Network
+                        <div class="step-number first">
+                            1
+                        </div>
+                    </div>
+                    <div class="step-image">
+                        <img src="./public/images/create.gif">
+                    </div>
+                </div>
+            </div>
+
+
+            <svg width="357" height="100%">
+                <path id="svgPath" stroke="#2F2F5E" stroke-width="4px" stroke-dasharray="20, 10" fill="none"
+                    d="M268,106C293.6990093311958,156.98197064989517,319.39801866239156,207.96394129979035,282,250C244.6019813376084,292.03605870020965,144.10693468162947,325.1262054507337,89,388C33.89306531837054,450.8737945492663,24.174242611090563,543.5312368972745,18,666C11.82575738890944,788.4687631027255,9.196094874008299,940.7488469601676,13,1056C16.8039051259917,1171.2511530398324,27.04137789287624,1249.4733752620546,71,1351C114.95862210712376,1452.5266247379454,192.6383935544868,1577.3576519916141,242,1659C291.3616064455132,1740.6423480083859,312.40504788917667,1779.0960167714886,268,1879C223.59495211082336,1978.9039832285114,113.74141488880667,2140.258280922432,88,2337C62.25858511119333,2533.741719077568,120.62929255559666,2765.8708595387843,179,2998">
+                </path>
+
+                <path id="" class="normal" stroke="#fff" stroke-width="6px" stroke-dasharray="20" fill="none"
+                    d="M268,106C293.6990093311958,156.98197064989517,319.39801866239156,207.96394129979035,282,250C244.6019813376084,292.03605870020965,144.10693468162947,325.1262054507337,89,388C33.89306531837054,450.8737945492663,24.174242611090563,543.5312368972745,18,666C11.82575738890944,788.4687631027255,9.196094874008299,940.7488469601676,13,1056C16.8039051259917,1171.2511530398324,27.04137789287624,1249.4733752620546,71,1351C114.95862210712376,1452.5266247379454,192.6383935544868,1577.3576519916141,242,1659C291.3616064455132,1740.6423480083859,312.40504788917667,1779.0960167714886,268,1879C223.59495211082336,1978.9039832285114,113.74141488880667,2140.258280922432,88,2337C62.25858511119333,2533.741719077568,120.62929255559666,2765.8708595387843,179,2998">
+                </path>
+            </svg>
+
+
+            <div class="step-block">
+                <div class="step">
+                    <div class="step-image">
+                        <img src="./public/images/upload.gif">
+                    </div>
+                    <div class="step-description">
+                        Upload your image on IPFS file
+                        <div class="step-number second">
+                            2
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-block last-step">
+                <div class="step">
+                   
+                    <div class="step-description">
+                        <div class="step-number third">
+                            3
+                        </div>
+                        Payment & Enjoy!
+                    </div>
+                    <div class="step-image">
+                        <img src="./public/images/payment.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+    <script src="./public/js/navigation.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/ScrollTrigger.min.js"></script>
+    <script src="./public/js/gsap.min.js"></script>
+    <script src="./public/js/CustomEase.min.js"></script>
+
+
+    <!--Welcome/Home Page Animation Folder-->
+    <script src="./public/js/home.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+
+        /*Auto go top button on click*/
+        var btn = $('#go-top-button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 10) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+
+
+    </script>
+</body>
+
+</html>

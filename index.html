@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/dist/css/index.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <a id="go-top-button"></a>
+
+    <nav class="nav">
+        <div class="logo">
+            NFT BOERSE<span>.</span>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a class="active" href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">ArtWorks</a>
+                </li>
+                <li>
+                    <a href="./buy.html">Buy NFT</a>
+                </li>
+                <li>
+                    <a href="#">Mint NFT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="container">
+            <div class="content-area">
+                <div class="info-section">
+                    <h1>NFTS PLATFORM ON CARDANO !</h1>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, libero! Expedita, dolorem
+                        officiis, voluptas tempora culpa adipisci explicabo fugiat quo distinctio laudantium ex cum.
+                        Inventore, distinctio corrupti. Exercitationem, ad nobis!</h4>
+                    <div class="call-actions">
+                        <a href="#" class="action-btn">Get Started</a>
+                        <a href="#" class="action-ghost-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="photos">
+                    <img class="girl" src="./public/images/greeting_a.jpg">
+                    <img class="boy" src="./public/images/greeting_b.jpg">
+                    <div class="shape1"></div>
+                    <div class="shape2"></div>
+                    <div class="shape3"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="vision">
+        <div class="container">
+            <h1>Vision</h1>
+            <div class="vision-info">
+                <p> NTFs have rapidly gained popularity among companies
+                    artists,celebrities and influncers as a way to digitize
+                    their brands.</p>
+                <div class="vision-images">
+                    <div class="vision-image-block">
+                        <div class="vision-image box">
+                            <img src="./public/images/pano.jpg">
+                        </div>
+                        <div class="vision-image-desc">
+                            <span>Creavity & Fine</span> Art in Web3
+                        </div>
+                    </div>
+                    <div class="vision-image-block">
+                        <div class="vision-image box">
+                            <img src="./public/images/both.jpg">
+                        </div>
+                        <div class="vision-image-desc">
+                            <span>Creavity & Fine</span> Art in Web3
+                        </div>
+                    </div>
+                    <div class="vision-image-block box">
+                        <div class="vision-image">
+                            <img src="./public/images/head.jpg">
+                        </div>
+                        <div class="vision-image-desc">
+                            <span>Creavity & Fine</span> Art in Web3
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+
+    </section>
+
+
+
+    <script src="./public/js/navigation.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/ScrollTrigger.min.js"></script>
+    <script src="./public/js/gsap.min.js"></script>
+    <script src="./public/js/CustomEase.min.js"></script>
+
+
+    <!--Welcome/Home Page Animation Folder-->
+    <script src="./public/js/home.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+
+        /*Auto go top button on click*/
+        var btn = $('#go-top-button');
+      
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 10) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+
+
+    </script>
+</body>
+
+</html>
