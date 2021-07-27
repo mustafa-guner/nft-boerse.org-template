@@ -1,0 +1,104 @@
+#buy {
+  margin-top: 9rem;
+}
+
+#buy h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#buy .description {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+#buy .steps {
+  position: relative;
+  width: 100%;
+}
+
+#buy .steps .step-block {
+  height: 100vh;
+}
+
+#buy .steps .step-block .step {
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#buy .steps .step-block .step .step-description {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 2.1rem;
+  width: 400px;
+  position: relative;
+}
+
+#buy .steps .step-block .step .step-description .step-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  padding: 1rem 1.4rem;
+  border-radius: 100%;
+  background-color: #2F2F5F;
+  color: #fff;
+  font-weight: 900;
+}
+
+#buy .steps .step-block .step .step-description .first {
+  left: 35%;
+  top: -80%;
+}
+
+#buy .steps .step-block .step .step-description .second {
+  left: 30%;
+  top: -90%;
+}
+
+#buy .steps .step-block .step .step-description .third {
+  top: -150%;
+  left: 25%;
+}
+
+#buy .steps .step-block .step .step-image {
+  width: 350px;
+  height: 350px;
+}
+
+#buy .steps .step-block .step .step-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#buy .steps .last-step {
+  height: 20vh !important;
+}
+
+#buy .steps svg {
+  position: absolute;
+  top: 80px;
+  right: 43%;
+}
+/*# sourceMappingURL=mint.css.map */

@@ -1,0 +1,134 @@
+footer {
+  background-color: #fff;
+  margin: 20rem auto !important;
+}
+
+footer .top-footer {
+  height: 40vh;
+}
+
+footer .top-footer h1 {
+  width: 800px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+}
+
+footer .top-footer p {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+footer .top-footer form {
+  width: 800px;
+  margin: 1rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .top-footer form input {
+  width: 50%;
+  padding: .8rem 1.5rem;
+}
+
+footer .top-footer form button {
+  padding: .8rem 1rem;
+  cursor: pointer;
+  border: 0;
+  background-color: #FDE71E;
+  color: #333;
+  font-weight: 900;
+  margin-left: 1rem;
+}
+
+footer .center-footer {
+  background-color: #2F2F5F;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .center-footer .container .social-media-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 1rem 0 0;
+}
+
+footer .center-footer .container .social-media-icons .circle {
+  padding: .8rem 1.2rem;
+  border-radius: 100%;
+  background-color: #fff;
+  cursor: pointer;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+footer .center-footer .container .social-media-icons .circle a {
+  text-decoration: none;
+  color: #2F2F5F;
+}
+
+footer .center-footer .container .social-media-icons .circle:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+footer .center-footer .container .footer-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 0;
+}
+
+footer .center-footer .container .footer-navbar a {
+  font-size: 12px;
+  margin-right: .5rem;
+  text-decoration: none;
+  color: rgba(202, 201, 201, 0.589);
+  padding: 0rem .2rem;
+}
+
+footer .center-footer .container .footer-navbar a:hover {
+  text-decoration: underline;
+}
+
+footer .bottom-footer {
+  height: 10vh;
+  padding: 1rem;
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */
