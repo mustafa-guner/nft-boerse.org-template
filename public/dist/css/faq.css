@@ -1,0 +1,276 @@
+#faq {
+  background-color: #ECFAFC;
+  margin-top: 3rem;
+}
+
+#faq .faq-jumbotron {
+  position: relative;
+  height: 100%;
+  padding: 1rem;
+  background-color: #27457B;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#faq .faq-jumbotron h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 3rem;
+}
+
+#faq .faq-jumbotron p {
+  font-size: 13px;
+  color: rgba(209, 208, 208, 0.411);
+}
+
+#faq .faq-jumbotron .faq-illu {
+  width: 400px;
+  height: auto;
+}
+
+#faq .faq-jumbotron .baloon {
+  position: absolute;
+}
+
+#faq .faq-jumbotron .first-baloon {
+  left: 0;
+  top: 0;
+  width: 400px;
+}
+
+#faq .faq-jumbotron .second-baloon {
+  right: 0;
+  bottom: -50px;
+  width: 400px;
+}
+
+#faq .container .about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+}
+
+#faq .container .about-container .owner-profile {
+  width: 700px;
+  margin: 1.2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#faq .container .about-container .owner-profile .profile-image {
+  overflow: hidden;
+  border-radius: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+#faq .container .about-container .owner-profile .profile-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#faq .container .about-container .owner-profile .profile-description {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#faq .container .about-container .owner-profile .profile-description .profile-title {
+  padding: 1rem 0;
+}
+
+#faq .container .about-container .owner-profile .profile-description .profile-title .title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: .3rem 0;
+}
+
+#faq .container .about-container .owner-profile .profile-description .profile-title .title span {
+  font-size: 16px;
+  font-weight: normal;
+  color: #8a8a8a;
+}
+
+#faq .container .about-container .owner-profile .profile-description .profile-title .sub-title {
+  font-size: 15px;
+  color: #8a8a8a;
+}
+
+#faq .container .about-container .owner-profile .profile-description .profile-title .sub-title span {
+  font-weight: 700;
+  border-bottom: 1px solid #FDE71E;
+}
+
+#faq .container .about-container .owner-profile .profile-description .profile-quote {
+  line-height: 1.5rem;
+  font-style: italic;
+}
+
+#faq .container #accordion {
+  margin: 4rem auto !important;
+}
+
+#faq .container #accordion .card {
+  overflow: hidden;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+  margin: 0 auto !important;
+}
+
+#faq .container #accordion .card p {
+  padding: 1rem;
+  text-align: left;
+}
+
+#faq .container #accordion .card .card-header {
+  text-decoration: none !important;
+  color: #2F2F5F !important;
+  font-weight: 700;
+  padding: 2rem;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: none !important;
+}
+
+#faq .container #accordion .card .card-body {
+  padding-left: 2.1rem !important;
+}
+
+#faq .container .ask-form {
+  margin: 4rem 0 2rem;
+  padding-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#faq .container .ask-form .ask-form-block {
+  padding: 1rem;
+}
+
+#faq .container .ask-form .ask-form-block h1 {
+  font-size: 2.1rem;
+}
+
+#faq .container .ask-form .ask-form-block h1 span {
+  color: #27457B;
+}
+
+#faq .container .ask-form .ask-form-block .ask-self form {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#faq .container .ask-form .ask-form-block .ask-self form input, #faq .container .ask-form .ask-form-block .ask-self form textarea {
+  display: block;
+  margin: 1rem 0;
+}
+
+#faq .container .ask-form .ask-form-block .ask-self form input {
+  width: 400px;
+  padding: .8rem 1.2rem;
+  outline: 0;
+  border: none;
+}
+
+#faq .container .ask-form .ask-form-block .ask-self form input:focus {
+  border-bottom: 2px solid #FDE71E;
+}
+
+#faq .container .ask-form .ask-form-block .ask-self form textarea {
+  padding: .8rem 1.2rem;
+  resize: none;
+  height: 200px;
+  width: 400px;
+  border: none;
+  outline: 0;
+}
+
+#faq .container .ask-form .ask-form-block .ask-self form textarea:focus {
+  border-bottom: 2px solid #FDE71E;
+}
+
+#faq .container .ask-form .ask-form-block .ask-self form button {
+  border: none;
+  font-weight: 900;
+  color: #fff;
+  background-color: #2F2F5F;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 50px;
+  padding: .8rem 1.3rem;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+#faq .container .ask-form .ask-form-block .ask-self form button:hover {
+  background-color: #fff;
+  color: #2F2F5F;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#faq .container .ask-form .faq-image {
+  width: 700px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 400px;
+}
+
+#faq .container .ask-form .faq-image img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=faq.css.map */

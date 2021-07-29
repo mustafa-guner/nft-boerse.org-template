@@ -67,13 +67,24 @@ nav ul li a {
   color: #FFF;
 }
 
-nav ul li a:hover, nav ul li a:visited:hover {
-  background: #ffffff25;
+nav li a.active {
+  font-weight: 900;
+  border-bottom: 2px solid #FDE71E;
+  border-radius: 5px;
+}
+
+nav ul li a:hover , nav ul li a:visited:hover {
+  background: #4D4D76;
   color: #ffffff;
 }
 
 .navbar-dropdown li a {
   background: #2581DC;
+}
+
+.navbar-dropdown li a.active {
+  font-weight: 900;
+  border-bottom: 2px solid #FDE71E;
 }
 
 nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {

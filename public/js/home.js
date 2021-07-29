@@ -169,7 +169,7 @@ gsap.set(boxes, {autoAlpha: 0, y: 50});
 
 boxes.forEach((box, i) => {
   // Set up your animation
-  const anim = gsap.to(box, {duration: 1.2, autoAlpha: 1, y: 0, paused: true});
+  const anim = gsap.to(box, {duration: 1.7, autoAlpha: 1, y: 0, paused: true});
   
   // Use callbacks to control the state of the animation
   ScrollTrigger.create({

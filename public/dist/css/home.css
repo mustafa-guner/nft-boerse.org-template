@@ -4,6 +4,7 @@
 }
 
 #home .content-area {
+  
   height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,6 +18,7 @@
 }
 
 #home .info-section {
+  position: relative;
   width: 50%;
 }
 
@@ -72,7 +74,7 @@
 }
 
 .action-ghost-btn {
-  background: transparent;
+  background: #fff;
   border: 2px solid #FDE71E;
   color: #333;
 }
@@ -121,6 +123,47 @@
   transition: filter .4s ease-in-out, -webkit-filter .4s ease-in-out;
   cursor: pointer;
 }
+
+
+#home #first-gear, #home #second-gear {
+    color: rgba(136, 136, 136, 0.103);
+    z-index: -1;
+    position: absolute;
+}
+            
+#home #first-gear {
+  top: 10px;
+  font-size: 320px;
+  left: -40px;
+}
+
+#home #second-gear {
+  top: 200px;
+  font-size: 200px;
+  left: 250px;
+}
+            
+
+ .spin {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+ .spin-back {
+    -webkit-animation:spin-back 4s linear infinite;
+    -moz-animation:spin-back 4s linear infinite;
+    animation:spin-back 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@-moz-keyframes spin-back { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin-back { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin-back { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
 
 .shape1 {
   position: absolute;
